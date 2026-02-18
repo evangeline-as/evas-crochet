@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evangeline Crochet's! </title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --bg: #353c46;
+      --card: #3a4047;
+      --text: #d7dde4;
+      --title: #171e25;
+      --accent: #5b7c99;
+      --button: #4a6b85;
+      --button-hover: #3f5d73;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #2c3136, var(--bg));
+      color: var(--text);
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    header h1 {
+      color: var(--title);
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+      color: #cfd6dd;
+    }
+
+    .gif {
+      margin-top: 25px;
+    }
+
+    .gif img {
+      max-width: 260px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    .btn-instagram {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 26px;
+      background: var(--button);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 600;
+      transition: 0.25s ease;
+    }
+
+    .btn-instagram:hover {
+      background: var(--button-hover);
+      transform: translateY(-2px);
+    }
+
+    .btn-whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 26px;
+  background: #25D366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+}
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      color: #c6d3df;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .about-card {
+      background: var(--card);
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+
+    .about-card h3 {
+      margin-top: 0;
+      color: #bcd0e4;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .portfolio-item {
+      background: var(--card);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.3);
+      transition: transform 0.25s ease;
+      text-align: center;
+    }
+
+    .portfolio-item:hover {
+      transform: translateY(-6px);
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .portfolio-item p {
+      padding: 14px;
+      margin: 0;
+      font-size: 0.95rem;
+      color: #cfd6dd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px 50px;
+      color: #aeb6bf;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 800px) {
+      .about {
+        grid-template-columns: 1fr;
+      }
+    }
+    .poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-container img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+}
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Welcome to my page</h1>
+  <p>
+    My Name Is <b>Evangeline</b> And I Do Crochet's!<br>
+    <i>I Make Dolls Especially Key Chains!</i>
+  </p>
+
+  <div class="gif">
+    <img src="https://i.pinimg.com/originals/2f/0b/f9/2f0bf94a6572edb0194819056bea77e7.gif" alt="cute crochet gif">
+  </div>
+
+  <a class="btn-instagram" href="https://www.instagram.com/piuiuiuui/" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Visit My Instagram
+</a>
+
+  <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=628996917298&text=Hi%20I%20want%20to%20order%20a%20crochet%20doll" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i> Chat Me on WhatsApp
+</a>
+</header>
+
+<!-- 🖼 POSTER SECTION -->
+<section id="poster">
+  <div class="poster-container">
+    <img src="poster.jpg" alt="Crochet Promotion Poster">
+  </div>
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <div class="about">
+
+    <div class="about-card">
+      <h3>Profile</h3>
+      <p><b>Name:</b> Evangeline AS</p>
+      <p><b>Status:</b> Newbie crocheter</p>
+      <p><b>Specialty:</b> Handmade dolls & keychains</p>
+      <p>I love creating small crochet dolls with cute designs and soft pastel colors.</p>
+    </div>
+
+    <div class="about-card">
+      <h3>What I Offer</h3>
+      <ul>
+        <li>Custom crochet dolls</li>
+        <li>Keychain-sized plushies</li>
+        <li>Cute animal designs</li>
+        <li>Handmade with love</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ✅ PORTFOLIO SECTION ADDED -->
+<section id="portfolio">
+  <h2 class="section-title">My Crochet Works</h2>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-item">
+      <img src="doll-cat.jpg" alt="Crochet cat doll">
+      <div class="caption">Cat Doll Keychain</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="doll-pair.jpg" alt="Crochet pair dolls">
+      <div class="caption">Cute Crochet Pair</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="animal-set.jpg" alt="Crochet animal keychains">
+      <div class="caption">Animal Keychains Set</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="dog-doll.jpg" alt="Crochet dog doll">
+      <div class="caption">Handmade Dog Plush</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="duck.jpg" alt="duck doll keychain">
+      <div class="caption">Mini Doll Keychain</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="custom-doll.jpg" alt="Custom crochet doll">
+      <div class="caption">Custom Crochet Doll</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="panda-doll.jpg" alt="Crochet panda doll">
+      <div class="caption">Panda Doll Keychain</div>
+    </div>
+
+    <div class="portfolio-item">
+      <img src="heart-keychain.jpg" alt="Crochet heart keychain">
+      <div class="caption">Heart Doll Keychain</div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Evangeline Crochet • Handmade with love 🧶
+</footer>
+
+</body>
+</html>
